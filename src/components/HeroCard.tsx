@@ -17,7 +17,7 @@ export function HeroCard() {
       </div>
 
       <div>
-        <h1 className="text-4xl md:text-6xl font-semibold tracking-tight text-[var(--color-fg)] leading-[1.05]">
+        <h1 className="text-3xl sm:text-4xl md:text-6xl font-semibold tracking-tight text-[var(--color-fg)] leading-[1.05]">
           {profile.name}
         </h1>
         <p className="mt-6 max-w-xl text-base md:text-lg leading-relaxed text-[var(--color-fg-muted)]">
@@ -25,7 +25,7 @@ export function HeroCard() {
         </p>
       </div>
 
-      <div className="flex flex-wrap items-center gap-3">
+      <div className="flex flex-wrap items-center gap-2 sm:gap-3">
         <a
           href={profile.social.email}
           className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-medium text-black transition hover:bg-white/90"
